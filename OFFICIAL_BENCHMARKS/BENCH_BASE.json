@@ -1,0 +1,1715 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "METAMASK",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\CRYPTOCURRENCY\\METAMASK\\UPSTREAM_CLONE",
+    "git": {
+      "head": "6c0a0dc148fd5ec74eb2da3c88c5656d06d5e738",
+      "url": "https://github.com/MetaMask/metamask",
+      "branch": "master",
+      "committed_at": "2026-04-13T15:52:34-04:00"
+    }
+  },
+  "metrics": {
+    "files_total": 617,
+    "source_files_scanned": 291,
+    "lines_of_code": 38975,
+    "languages": {
+      ".js": 285,
+      ".png": 46,
+      ".svg": 44,
+      ".scss": 31,
+      ".woff2": 28,
+      ".woff": 27,
+      ".webp": 25,
+      ".ttf": 19,
+      ".eot": 17,
+      ".otf": 16,
+      ".avif": 16,
+      "(none)": 8,
+      ".md": 8,
+      ".riv": 8,
+      ".pdf": 7
+    }
+  },
+  "licence": {
+    "spdx": "MIT",
+    "class": "A",
+    "source_file": "LICENSE",
+    "redistribution_allowed": true
+  },
+  "dependencies": {
+    "count": 100,
+    "unique": 99,
+    "by_ecosystem": {
+      "npm": 100
+    },
+    "list": [
+      {
+        "ecosystem": "npm",
+        "name": "@contentful/live-preview",
+        "version": "^2.4.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@loadable/component",
+        "version": "^5.14.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@mdx-js/mdx",
+        "version": "^2.3.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@mdx-js/react",
+        "version": "^2.3.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@metamask/logo",
+        "version": "^3.1.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@nx-js/observer-util",
+        "version": "^4.2.2",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@rive-app/react-canvas",
+        "version": "^3.0.53",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@studio-freight/hamo",
+        "version": "^0.6.18",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@studio-freight/lenis",
+        "version": "^1.0.16",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "apollo-link-contentful",
+        "version": "0.1.5",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "auth0-js",
+        "version": "^9.8.2",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "body-scroll-lock",
+        "version": "^4.0.0-beta.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "clsx",
+        "version": "^2.1.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "country-flag-emoji-polyfill",
+        "version": "^0.1.8",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "dotenv",
+        "version": "^8.1.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "gatsby",
+        "version": "5.12.10",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "gatsby-cli",
+        "version": "^5.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "gatsby-plugin-google-tagmanager",
+        "version": "^5.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "gatsby-plugin-image",
+        "version": "^3.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "gatsby-plugin-launchdarkly",
+        "version": "^1.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "gatsby-plugin-manifest",
+        "version": "^5.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "gatsby-plugin-mdx",
+        "version": "^5.12.3",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "gatsby-plugin-react-helmet",
+        "version": "^6.9.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "gatsby-plugin-react-svg",
+        "version": "^3.3.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "gatsby-plugin-robots-txt",
+        "version": "^1.5.5",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "gatsby-plugin-sass",
+        "version": "^6.9.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "gatsby-plugin-sharp",
+        "version": "^5.12.3",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "gatsby-plugin-styled-components",
+        "version": "^6.9.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "gatsby-plugin-well-known",
+        "version": "^1.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "gatsby-source-contentful",
+        "version": "^8.13.2",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "gatsby-source-filesystem",
+        "version": "^5.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "gatsby-transformer-remark",
+        "version": "^6.9.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "gatsby-transformer-sharp",
+        "version": "^5.12.3",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "gl-matrix",
+        "version": "^3.4.3",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "gsap",
+        "version": "^3.12.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "highlight.js",
+        "version": "^11.6.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "light-event-bus",
+        "version": "^1.0.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "lodash",
+        "version": "^4.17.21",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "minimatch",
+        "version": "^9.0.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "node-html-parser",
+        "version": "^5.2.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "path",
+        "version": "^0.12.7",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "prismjs",
+        "version": "^1.30.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "qs",
+        "version": "^6.11.2",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react",
+        "version": "^18.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-animate-height",
+        "version": "^2.0.23",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-animate-on-scroll",
+        "version": "^2.1.7",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-device-detect",
+        "version": "^2.2.3",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-dom",
+        "version": "^18.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-helmet",
+        "version": "^6.1.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-markdown",
+        "version": "^8.0.7",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-responsive",
+        "version": "^9.0.0-beta.4",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-slick",
+        "version": "^0.29.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-toastify",
+        "version": "^5.4.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "reactjs-popup",
+        "version": "^2.0.5",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "rehype-raw",
+        "version": "^6.1.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "rehype-slug",
+        "version": "^5.1.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "remark-gfm",
+        "version": "3.0.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sass",
+        "version": "^1.43.4",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "simplex-noise",
+        "version": "^4.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "styled-components",
+        "version": "^5.3.9",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "three",
+        "version": "^0.153.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "troika-three-text",
+        "version": "^0.48.0-unicode.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "underscore",
+        "version": "^1.13.6",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "universal-cookie",
+        "version": "^4.0.4",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "wobble",
+        "version": "^1.5.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "babel-plugin-inline-react-svg",
+        "version": "^2.0.2",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "fs-extra",
+        "version": "^8.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "gatsby-plugin-root-import",
+        "version": "^2.0.8",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "jest",
+        "version": "^29.7.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "p-whilst",
+        "version": "^2.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "^1.15.2",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "puppeteer",
+        "version": "^23.3.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "stylelint",
+        "version": "^14.16.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "stylelint-config-property-sort-order-smacss",
+        "version": "^9.1.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "stylelint-config-recommended",
+        "version": "^9.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "stylelint-config-styled-components",
+        "version": "^0.1.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "stylelint-processor-styled-components",
+        "version": "^1.10.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "gl-mat4",
+        "version": "1.1.4",
+        "source_file": "src/components/PortfolioPage/Shared/LogoPortfolio/logo/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "gl-vec3",
+        "version": "1.0.3",
+        "source_file": "src/components/PortfolioPage/Shared/LogoPortfolio/logo/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@lavamoat/allow-scripts",
+        "version": "^1.0.6",
+        "source_file": "src/components/PortfolioPage/Shared/LogoPortfolio/logo/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@metamask/auto-changelog",
+        "version": "^2.5.0",
+        "source_file": "src/components/PortfolioPage/Shared/LogoPortfolio/logo/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@metamask/eslint-config",
+        "version": "^8.0.0",
+        "source_file": "src/components/PortfolioPage/Shared/LogoPortfolio/logo/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@metamask/eslint-config-nodejs",
+        "version": "^8.0.0",
+        "source_file": "src/components/PortfolioPage/Shared/LogoPortfolio/logo/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "browserify",
+        "version": "^16.5.2",
+        "source_file": "src/components/PortfolioPage/Shared/LogoPortfolio/logo/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "copy-to-clipboard",
+        "version": "^3.0.5",
+        "source_file": "src/components/PortfolioPage/Shared/LogoPortfolio/logo/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^7.32.0",
+        "source_file": "src/components/PortfolioPage/Shared/LogoPortfolio/logo/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint-config-prettier",
+        "version": "^8.1.0",
+        "source_file": "src/components/PortfolioPage/Shared/LogoPortfolio/logo/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint-plugin-import",
+        "version": "^2.22.1",
+        "source_file": "src/components/PortfolioPage/Shared/LogoPortfolio/logo/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint-plugin-node",
+        "version": "^11.1.0",
+        "source_file": "src/components/PortfolioPage/Shared/LogoPortfolio/logo/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint-plugin-prettier",
+        "version": "^3.3.1",
+        "source_file": "src/components/PortfolioPage/Shared/LogoPortfolio/logo/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "execa",
+        "version": "^5.1.1",
+        "source_file": "src/components/PortfolioPage/Shared/LogoPortfolio/logo/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mersenne-twister",
+        "version": "^1.1.0",
+        "source_file": "src/components/PortfolioPage/Shared/LogoPortfolio/logo/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "obj-file-parser",
+        "version": "^0.5.0",
+        "source_file": "src/components/PortfolioPage/Shared/LogoPortfolio/logo/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "obj-file-parser-ts",
+        "version": "^0.6.4",
+        "source_file": "src/components/PortfolioPage/Shared/LogoPortfolio/logo/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "^2.2.1",
+        "source_file": "src/components/PortfolioPage/Shared/LogoPortfolio/logo/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "prettier-plugin-packagejson",
+        "version": "^2.2.11",
+        "source_file": "src/components/PortfolioPage/Shared/LogoPortfolio/logo/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "rimraf",
+        "version": "^3.0.2",
+        "source_file": "src/components/PortfolioPage/Shared/LogoPortfolio/logo/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "svg-parser",
+        "version": "^2.0.4",
+        "source_file": "src/components/PortfolioPage/Shared/LogoPortfolio/logo/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "uglifyify",
+        "version": "^5.0.2",
+        "source_file": "src/components/PortfolioPage/Shared/LogoPortfolio/logo/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "yargs",
+        "version": "^17.2.1",
+        "source_file": "src/components/PortfolioPage/Shared/LogoPortfolio/logo/package.json",
+        "raw": ""
+      }
+    ]
+  },
+  "owasp_top10": {
+    "total_findings": 18,
+    "files_with_findings": 18,
+    "severity": {
+      "high": 1,
+      "medium": 1,
+      "low": 16
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 0,
+        "findings": []
+      },
+      "A02-CryptographicFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A03-Injection": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "src/lib/utils/urlParser.js",
+            "line": 7,
+            "cwe": "CWE-95",
+            "snippet": "url ? /^(?:https?:\\/\\/)?(?:www\\.)?([^/]*).*$/.exec(url)[1] : ''"
+          }
+        ]
+      },
+      "A04-InsecureDesign": {
+        "count": 5,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "src/components/Feature.js",
+            "line": 640,
+            "cwe": "CWE-",
+            "snippet": "font-size: ${({ theme }) => theme.font.size.xxxl}rem;"
+          },
+          {
+            "severity": "low",
+            "file": "src/components/HeroContainer.js",
+            "line": 866,
+            "cwe": "CWE-",
+            "snippet": "font-size: ${({ theme }) => theme.font.size.xxxl}rem;"
+          },
+          {
+            "severity": "low",
+            "file": "src/components/PortfolioPage/Map/Canvas/Gl/imog/Scene/HotSpots/index.js",
+            "line": 187,
+            "cwe": "CWE-",
+            "snippet": "// TODO: Make sure to destroy pool"
+          },
+          {
+            "severity": "low",
+            "file": "src/components/PortfolioPage/Map/Canvas/Gl/lib/imog/index.js",
+            "line": 387,
+            "cwe": "CWE-",
+            "snippet": "// !! todo: how to raise warning when trying to manually set computed prop?"
+          },
+          {
+            "severity": "low",
+            "file": "src/lib/theme.js",
+            "line": 39,
+            "cwe": "CWE-",
+            "snippet": "xxxl: 3, // 48px"
+          }
+        ]
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 0,
+        "findings": []
+      },
+      "A06-VulnerableComponents": {
+        "count": 0,
+        "findings": []
+      },
+      "A07-AuthFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 11,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "gatsby-node.js",
+            "line": 642,
+            "cwe": "CWE-319",
+            "snippet": "'xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"' +"
+          },
+          {
+            "severity": "low",
+            "file": "src/components/ArrowIcon.js",
+            "line": 21,
+            "cwe": "CWE-319",
+            "snippet": "xmlns=\"http://www.w3.org/2000/svg\""
+          },
+          {
+            "severity": "low",
+            "file": "src/components/ArrowMiniIcon.js",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "xmlns=\"http://www.w3.org/2000/svg\""
+          },
+          {
+            "severity": "low",
+            "file": "src/components/Carousel.js",
+            "line": 21,
+            "cwe": "CWE-319",
+            "snippet": "xmlns=\"http://www.w3.org/2000/svg\""
+          },
+          {
+            "severity": "low",
+            "file": "src/components/Embed/Embed.js",
+            "line": 78,
+            "cwe": "CWE-319",
+            "snippet": "xmlns=\"http://www.w3.org/2000/svg\""
+          },
+          {
+            "severity": "low",
+            "file": "src/components/Embed/parseIframe.js",
+            "line": 32,
+            "cwe": "CWE-319",
+            "snippet": "}\"><span class=\"embed-popup-target-overlay\"><span class=\"embed-popup-target-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"23\" height=\"28\" viewBox=\"0 0 23 28\" fill=\"none\">"
+          },
+          {
+            "severity": "low",
+            "file": "src/components/PortfolioPage/Layout/PortfolioLoader.js",
+            "line": 93,
+            "cwe": "CWE-319",
+            "snippet": "xmlns=\"http://www.w3.org/2000/svg\""
+          },
+          {
+            "severity": "low",
+            "file": "src/components/PortfolioPage/Map/Sidebar/Elements/VideoButton.js",
+            "line": 26,
+            "cwe": "CWE-319",
+            "snippet": "xmlns=\"http://www.w3.org/2000/svg\""
+          },
+          {
+            "severity": "low",
+            "file": "src/components/PortfolioPage/Shared/LogoPortfolio/logo/util.js",
+            "line": 8,
+            "cwe": "CWE-319",
+            "snippet": "const SVG_NS = 'http://www.w3.org/2000/svg'"
+          },
+          {
+            "severity": "low",
+            "file": "src/components/PreviewLoading/index.js",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "xmlns=\"http://www.w3.org/2000/svg\""
+          },
+          {
+            "severity": "low",
+            "file": "src/lib/utils/sitemap.js",
+            "line": 21,
+            "cwe": "CWE-319",
+            "snippet": "urlsetAnchorAttributes: 'xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"',"
+          }
+        ]
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A10-SSRF": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "src/lib/utils/download.js",
+            "line": 32,
+            "cwe": "CWE-918",
+            "snippet": "const response = await fetch(url)"
+          }
+        ]
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 0,
+    "files_with_findings": 0,
+    "severity": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM03-SupplyChain": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM04-DataPoisoning": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM09-Misinformation": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:d36dfa95-89d5-50ed-a28a-0d32c50c65c8",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-05T15:05:07Z",
+      "component": {
+        "type": "application",
+        "name": "METAMASK",
+        "version": "6c0a0dc148fd",
+        "bom-ref": "pkg:generic/anticloud/METAMASK@6c0a0dc148fd",
+        "purl": "pkg:generic/anticloud/METAMASK@6c0a0dc148fd",
+        "licenses": [
+          {
+            "license": {
+              "id": "MIT"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": "6c0a0dc148fd5ec74eb2da3c88c5656d06d5e738"
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/MetaMask/metamask"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "@contentful/live-preview",
+        "version": "^2.4.1",
+        "purl": "pkg:npm/@contentful/live-preview@^2.4.1",
+        "bom-ref": "npm/@contentful/live-preview@^2.4.1"
+      },
+      {
+        "type": "library",
+        "name": "@loadable/component",
+        "version": "^5.14.1",
+        "purl": "pkg:npm/@loadable/component@^5.14.1",
+        "bom-ref": "npm/@loadable/component@^5.14.1"
+      },
+      {
+        "type": "library",
+        "name": "@mdx-js/mdx",
+        "version": "^2.3.0",
+        "purl": "pkg:npm/@mdx-js/mdx@^2.3.0",
+        "bom-ref": "npm/@mdx-js/mdx@^2.3.0"
+      },
+      {
+        "type": "library",
+        "name": "@mdx-js/react",
+        "version": "^2.3.0",
+        "purl": "pkg:npm/@mdx-js/react@^2.3.0",
+        "bom-ref": "npm/@mdx-js/react@^2.3.0"
+      },
+      {
+        "type": "library",
+        "name": "@metamask/logo",
+        "version": "^3.1.0",
+        "purl": "pkg:npm/@metamask/logo@^3.1.0",
+        "bom-ref": "npm/@metamask/logo@^3.1.0"
+      },
+      {
+        "type": "library",
+        "name": "@nx-js/observer-util",
+        "version": "^4.2.2",
+        "purl": "pkg:npm/@nx-js/observer-util@^4.2.2",
+        "bom-ref": "npm/@nx-js/observer-util@^4.2.2"
+      },
+      {
+        "type": "library",
+        "name": "@rive-app/react-canvas",
+        "version": "^3.0.53",
+        "purl": "pkg:npm/@rive-app/react-canvas@^3.0.53",
+        "bom-ref": "npm/@rive-app/react-canvas@^3.0.53"
+      },
+      {
+        "type": "library",
+        "name": "@studio-freight/hamo",
+        "version": "^0.6.18",
+        "purl": "pkg:npm/@studio-freight/hamo@^0.6.18",
+        "bom-ref": "npm/@studio-freight/hamo@^0.6.18"
+      },
+      {
+        "type": "library",
+        "name": "@studio-freight/lenis",
+        "version": "^1.0.16",
+        "purl": "pkg:npm/@studio-freight/lenis@^1.0.16",
+        "bom-ref": "npm/@studio-freight/lenis@^1.0.16"
+      },
+      {
+        "type": "library",
+        "name": "apollo-link-contentful",
+        "version": "0.1.5",
+        "purl": "pkg:npm/apollo-link-contentful@0.1.5",
+        "bom-ref": "npm/apollo-link-contentful@0.1.5"
+      },
+      {
+        "type": "library",
+        "name": "auth0-js",
+        "version": "^9.8.2",
+        "purl": "pkg:npm/auth0-js@^9.8.2",
+        "bom-ref": "npm/auth0-js@^9.8.2"
+      },
+      {
+        "type": "library",
+        "name": "body-scroll-lock",
+        "version": "^4.0.0-beta.0",
+        "purl": "pkg:npm/body-scroll-lock@^4.0.0-beta.0",
+        "bom-ref": "npm/body-scroll-lock@^4.0.0-beta.0"
+      },
+      {
+        "type": "library",
+        "name": "clsx",
+        "version": "^2.1.0",
+        "purl": "pkg:npm/clsx@^2.1.0",
+        "bom-ref": "npm/clsx@^2.1.0"
+      },
+      {
+        "type": "library",
+        "name": "country-flag-emoji-polyfill",
+        "version": "^0.1.8",
+        "purl": "pkg:npm/country-flag-emoji-polyfill@^0.1.8",
+        "bom-ref": "npm/country-flag-emoji-polyfill@^0.1.8"
+      },
+      {
+        "type": "library",
+        "name": "dotenv",
+        "version": "^8.1.0",
+        "purl": "pkg:npm/dotenv@^8.1.0",
+        "bom-ref": "npm/dotenv@^8.1.0"
+      },
+      {
+        "type": "library",
+        "name": "gatsby",
+        "version": "5.12.10",
+        "purl": "pkg:npm/gatsby@5.12.10",
+        "bom-ref": "npm/gatsby@5.12.10"
+      },
+      {
+        "type": "library",
+        "name": "gatsby-cli",
+        "version": "^5.0.0",
+        "purl": "pkg:npm/gatsby-cli@^5.0.0",
+        "bom-ref": "npm/gatsby-cli@^5.0.0"
+      },
+      {
+        "type": "library",
+        "name": "gatsby-plugin-google-tagmanager",
+        "version": "^5.0.0",
+        "purl": "pkg:npm/gatsby-plugin-google-tagmanager@^5.0.0",
+        "bom-ref": "npm/gatsby-plugin-google-tagmanager@^5.0.0"
+      },
+      {
+        "type": "library",
+        "name": "gatsby-plugin-image",
+        "version": "^3.0.0",
+        "purl": "pkg:npm/gatsby-plugin-image@^3.0.0",
+        "bom-ref": "npm/gatsby-plugin-image@^3.0.0"
+      },
+      {
+        "type": "library",
+        "name": "gatsby-plugin-launchdarkly",
+        "version": "^1.0.0",
+        "purl": "pkg:npm/gatsby-plugin-launchdarkly@^1.0.0",
+        "bom-ref": "npm/gatsby-plugin-launchdarkly@^1.0.0"
+      },
+      {
+        "type": "library",
+        "name": "gatsby-plugin-manifest",
+        "version": "^5.0.0",
+        "purl": "pkg:npm/gatsby-plugin-manifest@^5.0.0",
+        "bom-ref": "npm/gatsby-plugin-manifest@^5.0.0"
+      },
+      {
+        "type": "library",
+        "name": "gatsby-plugin-mdx",
+        "version": "^5.12.3",
+        "purl": "pkg:npm/gatsby-plugin-mdx@^5.12.3",
+        "bom-ref": "npm/gatsby-plugin-mdx@^5.12.3"
+      },
+      {
+        "type": "library",
+        "name": "gatsby-plugin-react-helmet",
+        "version": "^6.9.0",
+        "purl": "pkg:npm/gatsby-plugin-react-helmet@^6.9.0",
+        "bom-ref": "npm/gatsby-plugin-react-helmet@^6.9.0"
+      },
+      {
+        "type": "library",
+        "name": "gatsby-plugin-react-svg",
+        "version": "^3.3.0",
+        "purl": "pkg:npm/gatsby-plugin-react-svg@^3.3.0",
+        "bom-ref": "npm/gatsby-plugin-react-svg@^3.3.0"
+      },
+      {
+        "type": "library",
+        "name": "gatsby-plugin-robots-txt",
+        "version": "^1.5.5",
+        "purl": "pkg:npm/gatsby-plugin-robots-txt@^1.5.5",
+        "bom-ref": "npm/gatsby-plugin-robots-txt@^1.5.5"
+      },
+      {
+        "type": "library",
+        "name": "gatsby-plugin-sass",
+        "version": "^6.9.0",
+        "purl": "pkg:npm/gatsby-plugin-sass@^6.9.0",
+        "bom-ref": "npm/gatsby-plugin-sass@^6.9.0"
+      },
+      {
+        "type": "library",
+        "name": "gatsby-plugin-sharp",
+        "version": "^5.12.3",
+        "purl": "pkg:npm/gatsby-plugin-sharp@^5.12.3",
+        "bom-ref": "npm/gatsby-plugin-sharp@^5.12.3"
+      },
+      {
+        "type": "library",
+        "name": "gatsby-plugin-styled-components",
+        "version": "^6.9.0",
+        "purl": "pkg:npm/gatsby-plugin-styled-components@^6.9.0",
+        "bom-ref": "npm/gatsby-plugin-styled-components@^6.9.0"
+      },
+      {
+        "type": "library",
+        "name": "gatsby-plugin-well-known",
+        "version": "^1.0.0",
+        "purl": "pkg:npm/gatsby-plugin-well-known@^1.0.0",
+        "bom-ref": "npm/gatsby-plugin-well-known@^1.0.0"
+      },
+      {
+        "type": "library",
+        "name": "gatsby-source-contentful",
+        "version": "^8.13.2",
+        "purl": "pkg:npm/gatsby-source-contentful@^8.13.2",
+        "bom-ref": "npm/gatsby-source-contentful@^8.13.2"
+      },
+      {
+        "type": "library",
+        "name": "gatsby-source-filesystem",
+        "version": "^5.0.0",
+        "purl": "pkg:npm/gatsby-source-filesystem@^5.0.0",
+        "bom-ref": "npm/gatsby-source-filesystem@^5.0.0"
+      },
+      {
+        "type": "library",
+        "name": "gatsby-transformer-remark",
+        "version": "^6.9.0",
+        "purl": "pkg:npm/gatsby-transformer-remark@^6.9.0",
+        "bom-ref": "npm/gatsby-transformer-remark@^6.9.0"
+      },
+      {
+        "type": "library",
+        "name": "gatsby-transformer-sharp",
+        "version": "^5.12.3",
+        "purl": "pkg:npm/gatsby-transformer-sharp@^5.12.3",
+        "bom-ref": "npm/gatsby-transformer-sharp@^5.12.3"
+      },
+      {
+        "type": "library",
+        "name": "gl-matrix",
+        "version": "^3.4.3",
+        "purl": "pkg:npm/gl-matrix@^3.4.3",
+        "bom-ref": "npm/gl-matrix@^3.4.3"
+      },
+      {
+        "type": "library",
+        "name": "gsap",
+        "version": "^3.12.1",
+        "purl": "pkg:npm/gsap@^3.12.1",
+        "bom-ref": "npm/gsap@^3.12.1"
+      },
+      {
+        "type": "library",
+        "name": "highlight.js",
+        "version": "^11.6.0",
+        "purl": "pkg:npm/highlight.js@^11.6.0",
+        "bom-ref": "npm/highlight.js@^11.6.0"
+      },
+      {
+        "type": "library",
+        "name": "light-event-bus",
+        "version": "^1.0.1",
+        "purl": "pkg:npm/light-event-bus@^1.0.1",
+        "bom-ref": "npm/light-event-bus@^1.0.1"
+      },
+      {
+        "type": "library",
+        "name": "lodash",
+        "version": "^4.17.21",
+        "purl": "pkg:npm/lodash@^4.17.21",
+        "bom-ref": "npm/lodash@^4.17.21"
+      },
+      {
+        "type": "library",
+        "name": "minimatch",
+        "version": "^9.0.1",
+        "purl": "pkg:npm/minimatch@^9.0.1",
+        "bom-ref": "npm/minimatch@^9.0.1"
+      },
+      {
+        "type": "library",
+        "name": "node-html-parser",
+        "version": "^5.2.0",
+        "purl": "pkg:npm/node-html-parser@^5.2.0",
+        "bom-ref": "npm/node-html-parser@^5.2.0"
+      },
+      {
+        "type": "library",
+        "name": "path",
+        "version": "^0.12.7",
+        "purl": "pkg:npm/path@^0.12.7",
+        "bom-ref": "npm/path@^0.12.7"
+      },
+      {
+        "type": "library",
+        "name": "prismjs",
+        "version": "^1.30.0",
+        "purl": "pkg:npm/prismjs@^1.30.0",
+        "bom-ref": "npm/prismjs@^1.30.0"
+      },
+      {
+        "type": "library",
+        "name": "qs",
+        "version": "^6.11.2",
+        "purl": "pkg:npm/qs@^6.11.2",
+        "bom-ref": "npm/qs@^6.11.2"
+      },
+      {
+        "type": "library",
+        "name": "react",
+        "version": "^18.0.0",
+        "purl": "pkg:npm/react@^18.0.0",
+        "bom-ref": "npm/react@^18.0.0"
+      },
+      {
+        "type": "library",
+        "name": "react-animate-height",
+        "version": "^2.0.23",
+        "purl": "pkg:npm/react-animate-height@^2.0.23",
+        "bom-ref": "npm/react-animate-height@^2.0.23"
+      },
+      {
+        "type": "library",
+        "name": "react-animate-on-scroll",
+        "version": "^2.1.7",
+        "purl": "pkg:npm/react-animate-on-scroll@^2.1.7",
+        "bom-ref": "npm/react-animate-on-scroll@^2.1.7"
+      },
+      {
+        "type": "library",
+        "name": "react-device-detect",
+        "version": "^2.2.3",
+        "purl": "pkg:npm/react-device-detect@^2.2.3",
+        "bom-ref": "npm/react-device-detect@^2.2.3"
+      },
+      {
+        "type": "library",
+        "name": "react-dom",
+        "version": "^18.0.0",
+        "purl": "pkg:npm/react-dom@^18.0.0",
+        "bom-ref": "npm/react-dom@^18.0.0"
+      },
+      {
+        "type": "library",
+        "name": "react-helmet",
+        "version": "^6.1.0",
+        "purl": "pkg:npm/react-helmet@^6.1.0",
+        "bom-ref": "npm/react-helmet@^6.1.0"
+      },
+      {
+        "type": "library",
+        "name": "react-markdown",
+        "version": "^8.0.7",
+        "purl": "pkg:npm/react-markdown@^8.0.7",
+        "bom-ref": "npm/react-markdown@^8.0.7"
+      },
+      {
+        "type": "library",
+        "name": "react-responsive",
+        "version": "^9.0.0-beta.4",
+        "purl": "pkg:npm/react-responsive@^9.0.0-beta.4",
+        "bom-ref": "npm/react-responsive@^9.0.0-beta.4"
+      },
+      {
+        "type": "library",
+        "name": "react-slick",
+        "version": "^0.29.0",
+        "purl": "pkg:npm/react-slick@^0.29.0",
+        "bom-ref": "npm/react-slick@^0.29.0"
+      },
+      {
+        "type": "library",
+        "name": "react-toastify",
+        "version": "^5.4.0",
+        "purl": "pkg:npm/react-toastify@^5.4.0",
+        "bom-ref": "npm/react-toastify@^5.4.0"
+      },
+      {
+        "type": "library",
+        "name": "reactjs-popup",
+        "version": "^2.0.5",
+        "purl": "pkg:npm/reactjs-popup@^2.0.5",
+        "bom-ref": "npm/reactjs-popup@^2.0.5"
+      },
+      {
+        "type": "library",
+        "name": "rehype-raw",
+        "version": "^6.1.1",
+        "purl": "pkg:npm/rehype-raw@^6.1.1",
+        "bom-ref": "npm/rehype-raw@^6.1.1"
+      },
+      {
+        "type": "library",
+        "name": "rehype-slug",
+        "version": "^5.1.0",
+        "purl": "pkg:npm/rehype-slug@^5.1.0",
+        "bom-ref": "npm/rehype-slug@^5.1.0"
+      },
+      {
+        "type": "library",
+        "name": "remark-gfm",
+        "version": "3.0.1",
+        "purl": "pkg:npm/remark-gfm@3.0.1",
+        "bom-ref": "npm/remark-gfm@3.0.1"
+      },
+      {
+        "type": "library",
+        "name": "sass",
+        "version": "^1.43.4",
+        "purl": "pkg:npm/sass@^1.43.4",
+        "bom-ref": "npm/sass@^1.43.4"
+      },
+      {
+        "type": "library",
+        "name": "simplex-noise",
+        "version": "^4.0.0",
+        "purl": "pkg:npm/simplex-noise@^4.0.0",
+        "bom-ref": "npm/simplex-noise@^4.0.0"
+      },
+      {
+        "type": "library",
+        "name": "styled-components",
+        "version": "^5.3.9",
+        "purl": "pkg:npm/styled-components@^5.3.9",
+        "bom-ref": "npm/styled-components@^5.3.9"
+      },
+      {
+        "type": "library",
+        "name": "three",
+        "version": "^0.153.0",
+        "purl": "pkg:npm/three@^0.153.0",
+        "bom-ref": "npm/three@^0.153.0"
+      },
+      {
+        "type": "library",
+        "name": "troika-three-text",
+        "version": "^0.48.0-unicode.1",
+        "purl": "pkg:npm/troika-three-text@^0.48.0-unicode.1",
+        "bom-ref": "npm/troika-three-text@^0.48.0-unicode.1"
+      },
+      {
+        "type": "library",
+        "name": "underscore",
+        "version": "^1.13.6",
+        "purl": "pkg:npm/underscore@^1.13.6",
+        "bom-ref": "npm/underscore@^1.13.6"
+      },
+      {
+        "type": "library",
+        "name": "universal-cookie",
+        "version": "^4.0.4",
+        "purl": "pkg:npm/universal-cookie@^4.0.4",
+        "bom-ref": "npm/universal-cookie@^4.0.4"
+      },
+      {
+        "type": "library",
+        "name": "wobble",
+        "version": "^1.5.1",
+        "purl": "pkg:npm/wobble@^1.5.1",
+        "bom-ref": "npm/wobble@^1.5.1"
+      },
+      {
+        "type": "library",
+        "name": "babel-plugin-inline-react-svg",
+        "version": "^2.0.2",
+        "purl": "pkg:npm/babel-plugin-inline-react-svg@^2.0.2",
+        "bom-ref": "npm/babel-plugin-inline-react-svg@^2.0.2"
+      },
+      {
+        "type": "library",
+        "name": "fs-extra",
+        "version": "^8.0.0",
+        "purl": "pkg:npm/fs-extra@^8.0.0",
+        "bom-ref": "npm/fs-extra@^8.0.0"
+      },
+      {
+        "type": "library",
+        "name": "gatsby-plugin-root-import",
+        "version": "^2.0.8",
+        "purl": "pkg:npm/gatsby-plugin-root-import@^2.0.8",
+        "bom-ref": "npm/gatsby-plugin-root-import@^2.0.8"
+      },
+      {
+        "type": "library",
+        "name": "jest",
+        "version": "^29.7.0",
+        "purl": "pkg:npm/jest@^29.7.0",
+        "bom-ref": "npm/jest@^29.7.0"
+      },
+      {
+        "type": "library",
+        "name": "p-whilst",
+        "version": "^2.0.0",
+        "purl": "pkg:npm/p-whilst@^2.0.0",
+        "bom-ref": "npm/p-whilst@^2.0.0"
+      },
+      {
+        "type": "library",
+        "name": "prettier",
+        "version": "^1.15.2",
+        "purl": "pkg:npm/prettier@^1.15.2",
+        "bom-ref": "npm/prettier@^1.15.2"
+      },
+      {
+        "type": "library",
+        "name": "puppeteer",
+        "version": "^23.3.1",
+        "purl": "pkg:npm/puppeteer@^23.3.1",
+        "bom-ref": "npm/puppeteer@^23.3.1"
+      },
+      {
+        "type": "library",
+        "name": "stylelint",
+        "version": "^14.16.1",
+        "purl": "pkg:npm/stylelint@^14.16.1",
+        "bom-ref": "npm/stylelint@^14.16.1"
+      },
+      {
+        "type": "library",
+        "name": "stylelint-config-property-sort-order-smacss",
+        "version": "^9.1.0",
+        "purl": "pkg:npm/stylelint-config-property-sort-order-smacss@^9.1.0",
+        "bom-ref": "npm/stylelint-config-property-sort-order-smacss@^9.1.0"
+      },
+      {
+        "type": "library",
+        "name": "stylelint-config-recommended",
+        "version": "^9.0.0",
+        "purl": "pkg:npm/stylelint-config-recommended@^9.0.0",
+        "bom-ref": "npm/stylelint-config-recommended@^9.0.0"
+      },
+      {
+        "type": "library",
+        "name": "stylelint-config-styled-components",
+        "version": "^0.1.1",
+        "purl": "pkg:npm/stylelint-config-styled-components@^0.1.1",
+        "bom-ref": "npm/stylelint-config-styled-components@^0.1.1"
+      },
+      {
+        "type": "library",
+        "name": "stylelint-processor-styled-components",
+        "version": "^1.10.0",
+        "purl": "pkg:npm/stylelint-processor-styled-components@^1.10.0",
+        "bom-ref": "npm/stylelint-processor-styled-components@^1.10.0"
+      },
+      {
+        "type": "library",
+        "name": "gl-mat4",
+        "version": "1.1.4",
+        "purl": "pkg:npm/gl-mat4@1.1.4",
+        "bom-ref": "npm/gl-mat4@1.1.4"
+      },
+      {
+        "type": "library",
+        "name": "gl-vec3",
+        "version": "1.0.3",
+        "purl": "pkg:npm/gl-vec3@1.0.3",
+        "bom-ref": "npm/gl-vec3@1.0.3"
+      },
+      {
+        "type": "library",
+        "name": "@lavamoat/allow-scripts",
+        "version": "^1.0.6",
+        "purl": "pkg:npm/@lavamoat/allow-scripts@^1.0.6",
+        "bom-ref": "npm/@lavamoat/allow-scripts@^1.0.6"
+      },
+      {
+        "type": "library",
+        "name": "@metamask/auto-changelog",
+        "version": "^2.5.0",
+        "purl": "pkg:npm/@metamask/auto-changelog@^2.5.0",
+        "bom-ref": "npm/@metamask/auto-changelog@^2.5.0"
+      },
+      {
+        "type": "library",
+        "name": "@metamask/eslint-config",
+        "version": "^8.0.0",
+        "purl": "pkg:npm/@metamask/eslint-config@^8.0.0",
+        "bom-ref": "npm/@metamask/eslint-config@^8.0.0"
+      },
+      {
+        "type": "library",
+        "name": "@metamask/eslint-config-nodejs",
+        "version": "^8.0.0",
+        "purl": "pkg:npm/@metamask/eslint-config-nodejs@^8.0.0",
+        "bom-ref": "npm/@metamask/eslint-config-nodejs@^8.0.0"
+      },
+      {
+        "type": "library",
+        "name": "browserify",
+        "version": "^16.5.2",
+        "purl": "pkg:npm/browserify@^16.5.2",
+        "bom-ref": "npm/browserify@^16.5.2"
+      },
+      {
+        "type": "library",
+        "name": "copy-to-clipboard",
+        "version": "^3.0.5",
+        "purl": "pkg:npm/copy-to-clipboard@^3.0.5",
+        "bom-ref": "npm/copy-to-clipboard@^3.0.5"
+      },
+      {
+        "type": "library",
+        "name": "eslint",
+        "version": "^7.32.0",
+        "purl": "pkg:npm/eslint@^7.32.0",
+        "bom-ref": "npm/eslint@^7.32.0"
+      },
+      {
+        "type": "library",
+        "name": "eslint-config-prettier",
+        "version": "^8.1.0",
+        "purl": "pkg:npm/eslint-config-prettier@^8.1.0",
+        "bom-ref": "npm/eslint-config-prettier@^8.1.0"
+      },
+      {
+        "type": "library",
+        "name": "eslint-plugin-import",
+        "version": "^2.22.1",
+        "purl": "pkg:npm/eslint-plugin-import@^2.22.1",
+        "bom-ref": "npm/eslint-plugin-import@^2.22.1"
+      },
+      {
+        "type": "library",
+        "name": "eslint-plugin-node",
+        "version": "^11.1.0",
+        "purl": "pkg:npm/eslint-plugin-node@^11.1.0",
+        "bom-ref": "npm/eslint-plugin-node@^11.1.0"
+      },
+      {
+        "type": "library",
+        "name": "eslint-plugin-prettier",
+        "version": "^3.3.1",
+        "purl": "pkg:npm/eslint-plugin-prettier@^3.3.1",
+        "bom-ref": "npm/eslint-plugin-prettier@^3.3.1"
+      },
+      {
+        "type": "library",
+        "name": "execa",
+        "version": "^5.1.1",
+        "purl": "pkg:npm/execa@^5.1.1",
+        "bom-ref": "npm/execa@^5.1.1"
+      },
+      {
+        "type": "library",
+        "name": "mersenne-twister",
+        "version": "^1.1.0",
+        "purl": "pkg:npm/mersenne-twister@^1.1.0",
+        "bom-ref": "npm/mersenne-twister@^1.1.0"
+      },
+      {
+        "type": "library",
+        "name": "obj-file-parser",
+        "version": "^0.5.0",
+        "purl": "pkg:npm/obj-file-parser@^0.5.0",
+        "bom-ref": "npm/obj-file-parser@^0.5.0"
+      },
+      {
+        "type": "library",
+        "name": "obj-file-parser-ts",
+        "version": "^0.6.4",
+        "purl": "pkg:npm/obj-file-parser-ts@^0.6.4",
+        "bom-ref": "npm/obj-file-parser-ts@^0.6.4"
+      },
+      {
+        "type": "library",
+        "name": "prettier-plugin-packagejson",
+        "version": "^2.2.11",
+        "purl": "pkg:npm/prettier-plugin-packagejson@^2.2.11",
+        "bom-ref": "npm/prettier-plugin-packagejson@^2.2.11"
+      },
+      {
+        "type": "library",
+        "name": "rimraf",
+        "version": "^3.0.2",
+        "purl": "pkg:npm/rimraf@^3.0.2",
+        "bom-ref": "npm/rimraf@^3.0.2"
+      },
+      {
+        "type": "library",
+        "name": "svg-parser",
+        "version": "^2.0.4",
+        "purl": "pkg:npm/svg-parser@^2.0.4",
+        "bom-ref": "npm/svg-parser@^2.0.4"
+      },
+      {
+        "type": "library",
+        "name": "uglifyify",
+        "version": "^5.0.2",
+        "purl": "pkg:npm/uglifyify@^5.0.2",
+        "bom-ref": "npm/uglifyify@^5.0.2"
+      },
+      {
+        "type": "library",
+        "name": "yargs",
+        "version": "^17.2.1",
+        "purl": "pkg:npm/yargs@^17.2.1",
+        "bom-ref": "npm/yargs@^17.2.1"
+      }
+    ]
+  },
+  "elapsed_seconds": 259.4
+}
